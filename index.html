@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Love Letter — Tap the envelopes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page">
+    <h1 class="visually-hidden">Love Letter</h1>
+
+    <div class="scene" role="application" aria-label="Four envelopes around a photo">
+      <!-- Center photo (replace center.jpg with your image file) -->
+      <img src="center.jpg" alt="Center photo" class="center-photo">
+
+      <!-- Envelope top -->
+      <div class="envelope pos top" tabindex="0" aria-expanded="false">
+        <div class="flap"></div>
+        <div class="body">
+          <div class="letter">
+            <h3>Letter 1</h3>
+            <p>Every time I see you I feel a little lighter. You are my favorite thought.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Envelope right -->
+      <div class="envelope pos right" tabindex="0" aria-expanded="false">
+        <div class="flap"></div>
+        <div class="body">
+          <div class="letter">
+            <h3>Letter 2</h3>
+            <p>Your smile is the little sunrise I look for. Thank you for being you.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Envelope bottom -->
+      <div class="envelope pos bottom" tabindex="0" aria-expanded="false">
+        <div class="flap"></div>
+        <div class="body">
+          <div class="letter">
+            <h3>Letter 3</h3>
+            <p>I carry your laugh in my pockets. It makes any day better.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Envelope left -->
+      <div class="envelope pos left" tabindex="0" aria-expanded="false">
+        <div class="flap"></div>
+        <div class="body">
+          <div class="letter">
+            <h3>Letter 4</h3>
+            <p>Small moments with you are the ones I replay before sleep. I adore you.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="hint">Tap or press <kbd>Enter</kbd> on an envelope to open it. Tap again to close.</footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
